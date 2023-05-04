@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+body{
+    @apply font-Bruno;
+}
+.open{
+    @apply block lg:hidden;
+}
+.hide{
+    @apply hidden lg:block;
+}
